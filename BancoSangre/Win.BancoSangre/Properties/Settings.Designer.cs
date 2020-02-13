@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Banco_de_Sangre.Properties
+namespace Win.BancoSangre.Properties
 {
 
 

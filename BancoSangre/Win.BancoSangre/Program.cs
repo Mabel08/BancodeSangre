@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Banco_de_Sangre
+namespace Win.BancoSangre
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Banco_de_Sangre
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormMenu());
         }
     }
 }

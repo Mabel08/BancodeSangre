@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // La información general de un ensamblado se controla mediante el siguiente 
 // conjunto de atributos. Cambie estos valores de atributo para modificar la información
 // asociada con un ensamblado.
-[assembly: AssemblyTitle("Banco de Sangre")]
+[assembly: AssemblyTitle("Win.BancoSangre")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Banco de Sangre")]
+[assembly: AssemblyProduct("Win.BancoSangre")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // El siguiente GUID sirve como id. de typelib si este proyecto se expone a COM.
-[assembly: Guid("ffe22c13-b05b-4e74-a231-d5d2009f0775")]
+[assembly: Guid("522db37a-03dd-47f4-8fd9-fff820f436c3")]
 
 // La información de versión de un ensamblado consta de los cuatro valores siguientes:
 //

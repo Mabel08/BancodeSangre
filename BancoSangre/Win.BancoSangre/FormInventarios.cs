@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Banco_de_Sangre
+namespace Win.BancoSangre
 {
-    public partial class Form1 : Form
+    public partial class FormInventarios : Form
     {
-        public Form1()
+        public FormInventarios()
         {
             InitializeComponent();
         }
