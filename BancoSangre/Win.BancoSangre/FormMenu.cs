@@ -75,5 +75,12 @@ namespace Win.BancoSangre
             formInventarios.MdiParent = this;
             formInventarios.Show();
         }
+
+        private void eliminarDonantesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formEliminar = new FormEliminar();
+            formEliminar.MdiParent = this;
+            formEliminar.Show();
+        }
     }
 }
