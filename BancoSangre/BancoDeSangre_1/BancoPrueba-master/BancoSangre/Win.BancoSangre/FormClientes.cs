@@ -8,13 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Win.BancoSangre
+namespace BL.BancoSangre
 {
-    public partial class FormAgregar : Form
+    public partial class FormClientes : Form
     {
-        public FormAgregar()
+        ClientesBL _clientes;
+
+        public FormClientes()
         {
             InitializeComponent();
+            _clientes = new ClientesBL();
+            //listadeClientesBindingSource.DataSource = _clientes.ObtenerClientes();
         }
+
+        
+
+        
     }
 }

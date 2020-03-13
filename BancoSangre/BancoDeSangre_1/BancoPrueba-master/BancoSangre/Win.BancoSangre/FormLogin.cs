@@ -38,6 +38,10 @@ namespace Win.BancoSangre
             usuario = textBox1.Text;
             password = textBox2.Text;
 
+            button1.Enabled = false;
+            button1.Text = "Verificando...";
+            Application.DoEvents();
+
            var resultado= _seguridad.Autorizar(usuario, password);
 
             if (resultado)
@@ -48,6 +52,16 @@ namespace Win.BancoSangre
             {
                 MessageBox.Show("El usuario o Contraseña que ingresó es incorrecto!");
             }
+        }
+
+        private void Usuario_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BL.BancoSangre;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -81,6 +82,20 @@ namespace Win.BancoSangre
             var formEliminar = new FormEliminar();
             formEliminar.MdiParent = this;
             formEliminar.Show();
+        }
+
+        private void mantenimientoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var formCliente = new FormCliente();
+            formCliente.MdiParent = this;
+            formCliente.Show();
+
+
         }
     }
 }

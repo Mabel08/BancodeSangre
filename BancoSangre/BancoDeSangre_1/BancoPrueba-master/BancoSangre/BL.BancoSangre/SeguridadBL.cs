@@ -8,15 +8,21 @@ namespace BL.BancoSangre
 {
     public class SeguridadBL
     {
+        Contexto _contexto;
+
+        public SeguridadBL()
+        {
+            _contexto = new Contexto();
+        }
         public bool Autorizar(string usuario,string password)
         {
-            if (usuario == "admin" && password == "321")
+            var usuarios = _contexto.Usuarios.ToList();
+
+            foreach(var usuarioDB in usuarios)
             {
-                return true;
-            }
-            else
-            {
-                if (usuario == "usuario" && password == "789")
+
+            
+                if (usuario == usuarioDB.Nombre && password == usuarioDB.password)
                 {
                     return true;
                 }
